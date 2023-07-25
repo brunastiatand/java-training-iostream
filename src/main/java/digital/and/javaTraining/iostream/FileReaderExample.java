@@ -11,6 +11,8 @@ public class FileReaderExample {
     public static void main(
             String[] args) throws IOException
     {
+        System.out.println("FileReaderExample ----------");
+
         FileReader sourceStream = null;
         try {
             sourceStream

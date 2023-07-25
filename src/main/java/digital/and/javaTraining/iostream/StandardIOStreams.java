@@ -7,8 +7,10 @@ import java.io.*;
 
 public class StandardIOStreams {
     public static void main(String[] args) throws IOException {
+        System.out.println("StandardIOStreams ----------");
+
         // InputStreamReader class to read input
-        InputStreamReader inp = null;
+        InputStreamReader inp;
 
         // Storing the input in inp
         inp = new InputStreamReader(System.in);
@@ -18,7 +20,7 @@ public class StandardIOStreams {
         char c;
         do {
             c = (char)inp.read();
-            System.out.println(" - "+c);
+            System.out.println(" - " + c);
         } while (c != '0');
     }
 }

@@ -9,6 +9,7 @@ public class ByteStreamExample {
     public static void main(
             String[] args) throws IOException
     {
+        System.out.println("ByteStreamExample ----------");
 
         FileInputStream sourceStream = null;
         FileOutputStream targetStream = null;

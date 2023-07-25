@@ -10,7 +10,8 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 
 class FileInputStreamExample {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
+        System.out.println("FileInputStreamExample ----------");
 
         byte[] array = new byte[20];
 
@@ -20,8 +21,8 @@ class FileInputStreamExample {
             System.out.println("Available bytes in the file: " + input.available());
 
             // Read byte from the input stream (only the first 20)
-            input.read(array);
-            System.out.println("Data read from the file: ");
+            int res = input.read(array);
+            System.out.println("Data read " + res + " from the file : ");
 
             // Convert byte array into string
             String data = new String(array);

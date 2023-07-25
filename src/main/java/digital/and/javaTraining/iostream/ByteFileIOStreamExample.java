@@ -1,12 +1,13 @@
 package digital.and.javaTraining.iostream;
 
 import java.io.*;
-public class ByteFileIOStreamTest {
+public class ByteFileIOStreamExample {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
+        System.out.println("ByteFileIOStreamExample ----------");
 
         try {
-            byte bWrite [] = {11,21,3,40,5,52,50,12,80,65,79,76,79};
+            byte[] bWrite = {11,21,3,40,5,52,50,12,80,65,79,76,79};
             OutputStream os = new FileOutputStream("./testData/test.txt");
             for(int x = 0; x < bWrite.length ; x++) {
                 os.write( bWrite[x] );   // writes the bytes
