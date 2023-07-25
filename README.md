@@ -1,6 +1,21 @@
 # Java Training - I/O Streams
 Java Training I/O Streams examples
 
+There are two main concepts in Java I/O: 
+- locating the resource you need to access (it can be a file or a network resource)
+- opening a stream for this resource
+
+An I/O Stream represents an input source or an output destination. A stream can represent many different kinds of sources and destinations, including disk files, devices, other programs, and memory arrays.
+
+Streams support many different kinds of data, including simple bytes, primitive data types, localized characters, and objects. Some streams simply pass on data; others manipulate and transform the data in useful ways.
+
+No matter how they work internally, all streams present the same simple model to programs that use them: a stream is a sequence of data. A program uses an input stream to read data from a source, one item at a time and an output stream to write data to a destination, one item at time.
+
+<img src="imgs/java-io-flow.png" alt="Standard streams" style="float: left; margin-right: 10px;" />
+i/o Streams
+
+
+## Standard i/o
 
 Java supports three streams that are automatically attached with the console.
 
@@ -9,7 +24,7 @@ Java supports three streams that are automatically attached with the console.
 - System.err: Standard error stream
 
 <img src="imgs/Java-Basic-input-output1.png" alt="Standard streams" style="float: left; margin-right: 10px;" />
-Standard Streams
+Standard i/o Streams
 
 
 
