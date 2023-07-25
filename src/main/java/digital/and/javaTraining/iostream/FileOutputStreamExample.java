@@ -11,7 +11,8 @@ import java.io.OutputStream;
 public class FileOutputStreamExample {
 
     public static void main(String[] args) {
-
+        System.out.println();
+        System.out.println();
         System.out.println("FileOutputStreamExample ----------");
 
         String data = """

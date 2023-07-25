@@ -11,11 +11,13 @@ import java.io.InputStream;
 
 class FileInputStreamExample {
     public static void main(String[] args) {
+        System.out.println();
+        System.out.println();
         System.out.println("FileInputStreamExample ----------");
 
-        byte[] array = new byte[20];
-
         try {
+            byte[] array = new byte[20];
+
             InputStream input = new FileInputStream("./testData/sourcefile.txt");
 
             System.out.println("Available bytes in the file: " + input.available());

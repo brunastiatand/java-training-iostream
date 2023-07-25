@@ -80,3 +80,8 @@ Here is the list of various CharacterStream Classes:
 |FileWriter	|used to output stream that writes to file.|
 
 
+## References
+
+Suggested forward reads
+
+https://www.javatpoint.com/java-io

@@ -7,6 +7,8 @@ import java.io.*;
 
 public class StandardIOStreams {
     public static void main(String[] args) throws IOException {
+        System.out.println();
+        System.out.println();
         System.out.println("StandardIOStreams ----------");
 
         // InputStreamReader class to read input

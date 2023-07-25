@@ -4,6 +4,8 @@ import java.io.*;
 public class ByteFileIOStreamExample {
 
     public static void main(String[] args) {
+        System.out.println();
+        System.out.println();
         System.out.println("ByteFileIOStreamExample ----------");
 
         try {
